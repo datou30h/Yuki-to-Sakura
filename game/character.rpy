@@ -7,6 +7,7 @@ define 应响 = Character("应响")
 define yx = Character("应晓")
 ## 路人
 define teacher = Character("教师")
+define assistant = Character("助教")
 define girl = Character("女生")
 define boy = Character("男生")
 define studentA = Character("学生A")

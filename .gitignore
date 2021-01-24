@@ -3,4 +3,5 @@
 log.txt
 errors.txt
 traceback.txt
-*.save
+game/saves/*
+game/cache/*

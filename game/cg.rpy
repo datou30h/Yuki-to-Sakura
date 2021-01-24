@@ -1,3 +1,9 @@
+image black:
+    "black.png"
+    size (1920, 1080)
+    xalign 0.0
+    yalign 0.0
+
 image classroom:
     "classroom.jpg"
     size (1920, 1080)
@@ -24,6 +30,18 @@ image canteen_inside:
 
 image dormitory_inside:
     "dormitory inside.jpg"
+    size (1920, 1080)
+    xalign 0.0
+    yalign 0.0
+
+image office:
+    "office.jpg"
+    size (1920, 1080)
+    xalign 0.0
+    yalign 0.0
+
+image USTC1958:
+    "USTC1958.jpg"
     size (1920, 1080)
     xalign 0.0
     yalign 0.0
