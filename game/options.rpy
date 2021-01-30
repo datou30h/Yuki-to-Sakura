@@ -167,11 +167,12 @@ init python:
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
+    build.classify('game/**.rpy', None)
 
     ## 若要打包文件，需将其列为“archive”。
 
-    # build.classify('game/**.png', 'archive')
-    # build.classify('game/**.jpg', 'archive')
+    build.classify('game/**.png', 'archive')
+    build.classify('game/**.jpg', 'archive')
 
     ## 匹配为文档模式的文件会在 Mac 应用生成中重复出现，所以它们同时出现在 app
     ## 和 zip 文件中。
