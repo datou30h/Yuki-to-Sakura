@@ -1,5 +1,5 @@
 *.rpyc
-/**.rpymc
+game/tl/None/common.rpymc
 log.txt
 errors.txt
 traceback.txt

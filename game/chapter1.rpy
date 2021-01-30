@@ -12,7 +12,7 @@ label start:
             「————还真是个无能的神啊。」"""
 
     ## 教室内景CG
-    scene classroom with dissolve
+    scene classroom with close
     ## 沈明视角
     # 五教，5305
 
@@ -94,10 +94,10 @@ label start:
     "就是嘛，一个死肥宅，凭什么被关注。
      又不是什么重要人物，也不是什么巨佬，才不会被妮可这群卷怪关注吧。"
     "不过，这样好像也挺好。"
-    scene black with dissolve
+    show black with anticlockwise
 
     ##一教外景
-    scene first_teaching_building with dissolve
+    scene first_teaching_building with anticlockwise
 
     "熙熙攘攘的人潮。"
     "刚刚下课，大家应该都在赶往食堂，或者回宿舍吧。"
@@ -117,10 +117,10 @@ label start:
     "不过在这里，连接着老北门和一教的路叫樱花道，道旁满植樱花树。"
     "每年春天，这里就是一片烂漫的绯红，一教橘红的外墙看起来也变得柔和。"
     "这大概是这个学校最美的地方了。"
-    scene black with dissolve
+    show black with anticlockwise
 
     ## 食堂外景
-    scene canteen_outside with dissolve
+    scene canteen_outside with anticlockwise
 
     "雨不大，应该，算是不大吧，预报也是写着“小雨”。"
     "合肥这个季节还是很冷，并不是那种刺骨的严寒，毕竟已经三月。"
@@ -162,7 +162,7 @@ label start:
          我预感食堂没几个人，就是专门给我们准备的。」"
     
     "路上有不少人提着打包的袋子走向宿舍楼，我竟然有点相信这预感了。"
-    scene black with dissolve
+    show black with anticlockwise
 
     ## 食堂内景
     scene canteen_inside with dissolve
@@ -486,6 +486,7 @@ label start:
     "现在科研实验室都搬到别处了，一教现在只作为大物实验教学楼使用。"
     "flxg..."
     "不去管它了，总之今天也顺利结束了。"
+    show black with anticlockwise
 
     ## 一教一楼
     scene first_teaching_building with dissolve
@@ -498,28 +499,30 @@ label start:
 
     "梁易寒跑上了楼梯。"
     "我转过身看樱花道。"
+    ## 樱花大道(初春、黄昏)
+    # scene with dissolve
     "树木发出新芽，叶片的绿色褪去了寒霜，焕发出活力。"
     "优雅的春风轻轻拂动枝头的花苞。很快就要开花了吧。"
     "不得不说，樱花季的科大，还是挺漂亮的。"
     ## 樱花绽放（白色蒙版，中心向外扩散）
-    # scene sakura_road_blooming with dissolve
+    scene white with close
     "恍惚中我好像真的看到了漫天飞舞的花瓣，如同琉璃般美丽而易碎的梦，如今绽放在我眼前。"
     sm  "「这，这真不是梦吗？」"
     "我掐了掐脸，挺疼啊。"
     "不可能，这已经傍晚了，无论是光线，还是时节，都不可能。"
-    "闭眼，睁眼。"
+    scene black with blink
     "我仍置身于樱花中。一瞬间不知道该想什么，仅仅呆站在原地。"
-    "一个身影突然出现在花下，
-     视野被飞花截成不规则的片段，但是那个存在却无比真实地为我所感觉到。"
-    ## cg
-    # scene xxx with dissolve
+    ## wyk上
+    #
+    "一个身影突然出现在花下，"
+    "视野被飞花截成不规则的片段，但是那个存在却无比真实地为我所感觉到。"
     "一个少女。"
     ## 转场
-    #
+    scene white with open
     "迟疑了一下，正欲迈开脚步，一切突然被强光笼罩。"
 
     ## 一教
-    scene first_teaching_building with dissolve
+    scene first_teaching_building with close
     "再恢复视野时，眼前已然恢复“正常”的静谧。"
     "幻觉吗？是我熬夜太多了吗？"
 
@@ -546,10 +549,10 @@ label start:
     sm  "「我真的看到了啊。我掐了自己一下，疼的啊。」"
     lyh "「行了行了，知道你看到了。赶紧走吧。」"
     sm  "「喂！你这个家伙！」"
-    scene black with dissolve
+    show black with anticlockwise
 
     ## 食堂内景
-    scene canteen_inside with dissolve
+    scene canteen_inside with anticlockwise
 
     lyh "「所以说，你在看到那个场景之前，有什么征兆吗？」"
     sm  "「好像也没什么吧。就是你上楼了，我一回头就感觉什么东西发生了变化。
